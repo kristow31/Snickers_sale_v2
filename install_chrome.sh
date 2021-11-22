@@ -4,5 +4,6 @@ sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.
 sudo dpkg -i google-chrome*.deb
 sudo apt install -y -f
 google-chrome --version
+rm -f google-chrome*.deb
 
 # Search chrome driver: https://chromedriver.storage.googleapis.com/index.html
